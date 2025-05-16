@@ -199,6 +199,4 @@ docker rm $(docker ps -aq)
 docker rmi -f $(docker images -aq)
 ```
 
----
 
-Let us know if you'd like to add **Docker Compose** for easier orchestration!
