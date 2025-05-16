@@ -199,4 +199,7 @@ docker rm $(docker ps -aq)
 docker rmi -f $(docker images -aq)
 ```
 
+## Docker compose 
+
+we need to install fresh Docker-compose to avoid running into issue.
 
